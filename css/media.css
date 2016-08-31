@@ -20,7 +20,10 @@
 	}
        .service .row .system{
                 margin-bottom:15px;
-   }
+     }
+     .hope .col-sm-12 p{
+     	text-indent:0;
+     }
 }
 /*小于992px*/
 @media screen and (max-width:992px) {
