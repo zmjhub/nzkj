@@ -1,0 +1,48 @@
+﻿/* CSS Document */
+ 
+
+/*小于768px*/
+@media screen and (max-width:768px) 
+{
+	/*隐藏滚动条*/
+	/**{
+		overflow-x:hidden;
+	}*/
+	.menu {
+		float: left;
+	}
+	#myNav {
+		text-align: center;
+		width: 100%;
+	}
+        .costomer .friendlyLink img{
+		width:100%;
+	}
+       .service .row .system{
+                margin-bottom:15px;
+   }
+}
+/*小于992px*/
+@media screen and (max-width:992px) {
+	header {
+		position: relative;
+	}
+	.menu {
+		position: absolute;
+		top: 0;
+		left: 50%;
+	}
+	
+	
+	.service{
+		 
+		
+		}
+}
+/*大于992px*/
+@media screen and (min-width:992px) {
+	.nav li {
+		margin-left: 40px !important;
+		padding-top:20px;
+	}
+}

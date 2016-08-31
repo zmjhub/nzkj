@@ -1,0 +1,155 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:0 !important;
+	outline:none;
+	list-style:none;
+	 
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+	margin:0;
+}
+.head{
+	position:relative;
+}
+.navBtn{
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:92%;
+	top:0;
+	}
+header{
+	background-color:#394C53;
+	height:auto;
+	width:100%;
+	overflow:hidden;
+}
+.logo,.menu{
+	height:72px;
+}
+section{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+ 	background:url(../images/footer-bg.jpg);
+	}
+.nav li{
+	padding-top:15px;
+}
+.nav li a{
+	color:#FFF;
+}
+.nav li a:hover{
+	color:black;
+}	
+/*左右方向键*/
+.carousel-control{
+	padding-top:9%;
+}
+.carousel-indicators li{
+	background-color:#CCC;
+}
+.logo img,.menu ul{
+	margin-top:15px;
+}
+.service{
+	height:auto;	
+	margin-bottom:20px;
+}
+.service .title,.example_show .title,.costomer .title,.baike .title{
+	display:block;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	font-size:36px;
+	font-weight:bold;
+}
+
+.system img:hover{
+	animation:Myxuan 0.4s infinite;
+	}
+	
+@keyframes Myxuan{
+		to{
+			transform:rotate(360deg);
+		}
+	}
+.system img{
+	transition:0.2s;
+	border-radius:50%;
+	
+}
+.system,.oto,.friendlyLink{
+	padding:0 auto;
+	text-align:center !important;
+}
+ .system span{
+	 width:150px;
+	 display:block;
+	 margin:0 auto;
+	 text-align:center;	
+	 font-size:15px;
+}
+.example_show{
+	width:100%;
+	height:auto;
+	background-color:#FFF;
+	margin-top:50px;                                  
+	text-align:center;
+	padding-bottom:50px;
+}
+ 
+.oto img{
+	margin-bottom:10px;
+}
+.costomer{
+	width:100%;
+	height:auto;
+	text-align:center;
+	padding-bottom:50px;
+}
+.friendlyLink{
+	margin:10px 0;
+}
+.baike{
+	width:100%;
+	background-color:#FFF;
+	padding-bottom:30px;
+}
+ .text-muted{
+	 text-indent:2em;	
+}
+footer{
+	background-color:#CCC;
+	height:auto;
+}
+.About{
+	width:100%;
+	background-color:#EEEEEE;
+}
+.link span{
+	display:block;
+	height:70px;
+	line-height:70px;
+}
+.aboutUs ul li{
+	margin:15px 0;
+}
+.weixin{
+	padding:5% 0;
+}
+.row div{
+	text-align:center;
+}
+.beian{
+	background-color:#172025;
+}
+.beian span{
+	display:block;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	color:#FFF;
+}

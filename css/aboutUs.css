@@ -1,0 +1,156 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+header{
+	background-color:#394C53;
+	height:auto;
+}
+section{
+	background-color:#F5F6F5;
+	height:auto;
+}
+#myNav{
+	margin-left:10%;
+	height:72px;
+	line-height:72px;
+}
+.navbar{
+	margin-bottom:0;
+	margin-top:10px;
+}
+.logo{
+	height:72px;
+	line-height:72px;
+}
+#myNav a{
+	margin-left:40px;
+	color:#FFF;
+}
+#myNav a:hover{
+	color:black;
+}
+/*关于我们  我们的优势 */
+.aboutUs h3,#ourAdvantage h3{
+	text-align:center;
+	display:block;
+	height:50px;
+	line-height:50px;
+	font-weight:bold;
+}
+.col-sm-12 p{
+	text-indent:2em;
+	line-height:25px;
+}
+
+ 
+
+.aboutUs_pic{
+	margin-top:10%;
+}
+/*专业 技术  项目管理  设计*/
+.major,.technology,.projectManage,.design
+{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	text-align:center;
+	color:#FFF;
+	 
+	padding-top:15px;
+}
+.major{
+	background-color:#FF8032;
+}
+.technology{
+	background-color:#FBAB31;
+}
+.projectManage{
+	background-color:#83AB30;
+}
+.design{
+	background-color:#9CC645;
+}
+.hope{
+	text-align:center;
+	margin-top:50px;
+}
+pre{
+	border:0 !important;
+}
+/*友情链接*/
+.friendlyLink{
+	margin:10px 0;
+}
+/*百科*/
+.baike{
+	width:100%;
+	background-color:#FFF;
+	padding-bottom:30px;
+}
+ .text-muted{
+	 text-indent:2em;	
+}
+/*底部*/
+footer{
+	background-color:#CCC;
+	height:auto;
+}
+.About{
+	width:100%;
+	background-color:#EEEEEE;
+}
+.link span{
+	display:block;
+	height:70px;
+	line-height:70px;
+}
+.aboutUs ul li{
+	margin:15px 0;
+}
+.weixin{
+	padding:5% 0;
+}
+.row div{
+	text-align:center;
+}
+.beian{
+	background-color:#172025;
+}
+.beian span{
+	display:block;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	color:#FFF;
+}
+/*设备屏幕小于768px像素*/
+@media screen and (max-width:768px){
+	#myNav{
+		height:auto !important;
+		}
+	 #ourAdvantage .col-sm-6{
+		 margin-left:40%!important;
+		}
+}
+
+
+/*小于992px*/
+@media screen and (max-width:992px){
+	#myNav a{
+		 margin-left:0px;
+		}
+	#myNav{
+		height:72px;
+	}
+   .major,.technology,.projectManage,.design {
+		 margin-left:70px !important;
+	 }
+}
+@media screen and (min-width:992px){
+	.major,.technology,.projectManage,.design{
+		margin-left:100px;
+		}
+}
